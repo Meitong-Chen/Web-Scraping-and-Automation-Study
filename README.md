@@ -1,24 +1,20 @@
-# Job Data Analysis Project
+# Web Scraping and Automation Study
 
 ## Overview
-This project involves scraping, analyzing, and clustering job listing data from Glassdoor to understand job market trends and salary distributions. It uses Selenium for web scraping, pandas for data cleaning, matplotlib and seaborn for visualization, scikit-learn for clustering, and MySQL for database operations.
+This repository documents my personal exploration into web scraping and automation using Python. It includes scripts for interacting with web pages, extracting information, and automating web interactions. The focus is on Craigslist listings and automating login processes for 'The Old Reader'.
 
-## Features
-- **Data Scraping**: Automates web browser interactions to extract job listings from Glassdoor.
-- **Data Cleaning**: Handles missing values, removes unnecessary columns, and formats data appropriately.
-- **Data Visualization**: Generates visual representations of data distributions and trends.
-- **Clustering Analysis**: Groups similar jobs using KMeans clustering based on company ratings and salary estimates.
-- **Database Integration**: Processes data are stored and retrieved from a MySQL database for further analysis.
+## Objectives
+- **Dynamic Interaction with Web Pages**: Learn to manipulate URLs to sort and navigate through Craigslist listings.
+- **Extracting Web Content**: Develop skills in using Beautiful Soup for fetching and parsing HTML to extract detailed information from web listings.
+- **Automation of Web Processes**: Implement scripts to automate login procedures and understand the mechanics of session management in web applications.
 
-## Tools and Libraries Used
-- `Selenium`
-- `Pandas`
-- `Matplotlib`
-- `Seaborn`
-- `Scikit-Learn`
-- `MySQL Connector`
+## Tools and Technologies
+- **Python**: Primary programming language used.
+- **Requests**: Library for making HTTP requests in Python.
+- **Beautiful Soup**: Library for parsing HTML and XML documents.
 
-## Installation
-To run this project, install the required libraries using pip:
+## Setup and Installation
+To set up the necessary environment for running these scripts, ensure Python is installed and then install the required packages:
 ```bash
-pip install selenium pandas matplotlib seaborn scikit-learn mysql-connector-python
+pip install requests
+pip install beautifulsoup4
